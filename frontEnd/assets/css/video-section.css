@@ -1,0 +1,11 @@
+.watch-video{
+  position: relative;
+}
+
+.watch-video-btn .glyphicon-play-circle{
+  font-size: 127px;
+  color: #FFF;
+  position: absolute;
+  top: 170px;
+  left: 590px;
+}
