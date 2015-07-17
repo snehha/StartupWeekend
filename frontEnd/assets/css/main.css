@@ -15,4 +15,5 @@
 .donate_btn #donate_txt{
   color: white;
   text-decoration: none;
+  padding-left: 6px;
 }
