@@ -3,11 +3,16 @@
   border: 1px solid;
   padding: 20px;
   display: inline;
-  top: 172px;
+  top: 277px;
   right: 0px;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   border-right: 0px;
   background-color: #D86262;
   color: white;
+  text-decoration: none;
+}
+.donate_btn #donate_txt{
+  color: white;
+  text-decoration: none;
 }
