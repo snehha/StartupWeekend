@@ -39,7 +39,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 300px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -52,12 +52,12 @@ body {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+ .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 300px;
 }
 
 
@@ -78,15 +78,15 @@ body {
 }
 
 
-/* Featurettes
+/* factss
 ------------------------- */
 
-.featurette-divider {
+.facts-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
-.featurette-heading {
+.facts-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
@@ -122,13 +122,13 @@ body {
     line-height: 1.4;
   }
 
-  .featurette-heading {
+  .facts-heading {
     font-size: 50px;
   }
 }
 
 @media (min-width: 992px) {
-  .featurette-heading {
+  .facts-heading {
     margin-top: 120px;
   }
 }
