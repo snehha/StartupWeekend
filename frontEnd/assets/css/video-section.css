@@ -1,7 +1,10 @@
 .watch-video{
   position: relative;
-  height: 100px;
-  margin-top: 10px; 
+  height: 540px;
+  /* margin-top: 10px; */
+  border-top: 1px solid white;
+  top: 122px;
+  border-bottom: 1px solid white;
 }
 
 .watch-video-btn .watch-trailer{
