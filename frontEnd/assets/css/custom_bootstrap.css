@@ -43,16 +43,12 @@ body {
   font-weight: normal;
 }
 .btn {
-  height:150px;
   width:300px;
 }
 .image{
-  margin: 100px -50px 300px -50px;
+  margin: 100px -50px 100px -50px;
 }
 
-.btn{
-  margin-bottom: 200px;
-}
 .boards .glyphicon{
   font-size: 50px;
 }
