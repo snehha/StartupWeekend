@@ -1,6 +1,100 @@
-.carousel{
+/*MAIN ELEMENTS*/
+h1{
+  text-align: center;
+}
+#wi-wrap{
+  width: 400px;
+  margin: 0 auto 0 auto;
+}
+body {
+  background-color: #000000;
+}
+
+/* --------------------------CAROUSEL-------------------------- */
+.carousel {
+  height: 600px;
   margin-bottom: 0;
 }
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+}
+.carousel-inner > .item > img {
+  height: 600px;
+}
+
+/*--------------------------NAVBAR--------------------------*/
+.logo-title{
+  color: #000;
+  font-size: 20px;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+}
+.navbar-brand{
+  color: #fff !important;
+}
+.navbar, .navbar-default{
+  background-color:#000 !important;
+  line-height: 0px;
+}
+
+/*--------------------------VIDEO-SECTION--------------------------*/
+.watch-video{
+  position: relative;
+  margin: 400px 0 100px 0;
+  background-image: url("assets/images/human-traficking-2.jpg")
+}
+
+.watch-video-btn .glyphicon-play-circle{
+  font-size: 127px;
+  color: #ffffff;
+  position: absolute;
+  top: 170px;
+  left: 590px;
+}
+/*--------------------------FACTS--------------------------*/
+.facts{
+  color: #c7dcdf;
+  padding-top: 35px;
+  font-family: "Trebuchet MS";
+}
+
+.facts-heading{
+  padding-bottom: 20px;
+}
+
+.head-fact{
+  margin-top: 0;
+}
+
+/*PICTOGRAPH*/
+.image{
+  margin: 100px -50px 300px -50px;
+}
+.head-image{
+  width:100%;
+  height:900px;
+}
+
+/*MULTIPLE CHOICE BUTTONS*/
+.boards .glyphicon{
+  font-size: 50px;
+}
+.btn {
+  height:160px;
+  width:300px;
+  margin-bottom: 200px;
+}
+.add-on{
+  margin-top: 30px;
+  color: #fff;
+}
+/*START OF DONATE BUTTON*/
+
 .donate_btn{
   position: fixed;
   border: 1px solid;
@@ -19,11 +113,4 @@
   color: white;
   text-decoration: none;
   padding-left: 6px;
-}
-h1{
-  text-align: center;
-}
-#wi-wrap{
-  width: 400px;
-  margin: 0 auto 0 auto;
 }
