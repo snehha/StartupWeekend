@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('#donate_txt').on('click', function(event){
+	$('.donate_txt').on('click', function(event){
 		event.preventDefault();
 		var $template = $('<form id="donation-form" action="#">\
 		        <div class="col-xs-12">\

@@ -33,10 +33,11 @@ body{
   color: white;
   text-decoration: none;
 }
-.donate_btn #donate_txt{
+.donate_btn .donate_txt{
   color: white;
   text-decoration: none;
   padding-left: 6px;
+  cursor: pointer;
 }
 h1{
   text-align: center;
@@ -44,4 +45,28 @@ h1{
 #wi-wrap{
   width: 400px;
   margin: 0 auto 0 auto;
+}
+.head-image-wrapper{
+  position: relative;
+}
+.look_at_me_wrapper{
+  position: absolute;
+  left: 356px;
+  bottom: 275px;
+  color: white;
+  font-size: 42px;
+  padding: 100px;
+  opacity: 0.8; 
+}
+.look_at_me_wrapper .big_donate_box{
+  font-size: 20px;
+  margin: 0px 110px;
+  border: 1px solid red;
+  padding: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.look_at_me_wrapper .big_donate_box:hover{
+  background-color: rgb(158, 116, 116);
 }
