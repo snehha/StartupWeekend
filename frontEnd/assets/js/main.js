@@ -21,11 +21,11 @@ $(document).ready(function(){
 		              <input id="phone-no" type="text" class="form-control" placeholder="--Phone Number--">\
 		            </div>\
 		            <div class="form-group">\
-		              <label for="donation-amount">Donation Amount</label>\
-		              <input type="text" id="donation-amount" class="form-control" placeholder="--Donation Amount--">\
+		              <label for="donation-amount">Donation Amount ($)</label>\
+		              <input type="number" id="donation-amount" class="form-control" min="1" placeholder="1">\
 		            </div>\
 		            <div class="col-xs-12">\
-		              <input type="submit" id="submit-btn" value="Submit" class=" btn floatR">\
+		              <input type="submit" id="submit-btn" value="Submit" class="floatR">\
 		            </div>\
 		          </div>\
 		        </div>\
