@@ -15,6 +15,7 @@ body{
   position: relative;
   top: -5px;
   left: 15px;
+  color: white;
 }
 .carousel{
   margin-bottom: 0;
@@ -72,4 +73,11 @@ h1{
 }
 .floatR{
   /*text-align: center;*/
+}
+.facts-inner{
+  border: 1px solid rgb(89, 84, 84) !important;
+  padding: 26px;
+}
+.facts-heading{
+  margin-top: 165px;
 }
