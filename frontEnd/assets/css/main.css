@@ -1,3 +1,21 @@
+body{
+  background-color: black;
+}
+.logo-title{
+  position: relative;
+  top: 4px;
+  font-weight: bold !important;
+  color: white !important;
+  font-size: 25px !important;
+}
+.logo-image{
+  height: 54px;
+}
+.logo-tagline{
+  position: relative;
+  top: -5px;
+  left: 15px;
+}
 .carousel{
   margin-bottom: 0;
 }
